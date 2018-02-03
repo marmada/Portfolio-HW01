@@ -57,13 +57,14 @@ a:visited {
 
  section{
     float: left;
-    max-width: 614px;
+    width: 614px;
     background-color: #ffffff;
     font-weight: 500;
     padding:15px;
     border-style: solid;
     border-color:#dddddd;
     border-width: 2px;
+    block-size:
     }
 
 h2{
@@ -105,6 +106,7 @@ ul{
      border-style: solid;
     border-color:#dddddd;
     border-width: 2px;
+    padding-top:15px
  }
  .socmedia{
      width: 60px;
