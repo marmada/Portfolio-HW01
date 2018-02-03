@@ -1,0 +1,134 @@
+body{
+    font-size: 18px;
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("assets/images/OF18OA0.jpg");
+}
+
+#top{
+    background-color: #ffffff; 
+    overflow: auto;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width:5px;
+    margin-bottom: 25px;
+}           
+header {
+    max-width:960px;
+    margin: auto;
+    overflow: auto;
+}
+
+h1 {
+    margin:0;
+    text-align: left;
+    padding:45px 60px 45px 60px;
+
+    background-color:#4aaaa5;
+    float: left;
+    color:#ffffff;
+    font-size:36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.links{
+    float:right;
+    margin:15px;
+    padding-top:60px;
+    margin-left:25px;
+    color:#777777;
+}
+
+a:visited {
+    color:#4aaaa5
+}
+
+#bodycontent{
+    max-width: 960px;
+    margin: auto;
+    overflow:auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+ section{
+    float: left;
+    max-width: 614px;
+    background-color: #ffffff;
+    font-weight: 500;
+    padding:15px;
+    border-style: solid;
+    border-color:#dddddd;
+    border-width: 2px;
+    }
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    padding-bottom: 25px;
+    padding-left:15px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width:3px;
+    margin-bottom: 25px;
+    }   
+ 
+ #headshot{
+     float: left;
+     width: 200px;
+     height:200px;
+     margin:0px 15px 10px 5px;
+
+ }
+ p{
+     text-align: justify;
+     margin-left: 15px;
+     letter-spacing: 1.5px;
+     line-height: 1.2;
+ }
+ul{
+    margin-top:10px;
+}
+ li{margin-left: 15px;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+}
+ aside{
+     float: right;
+     margin-left:15px;
+     width: 265px;
+     background-color: #ffffff;
+     border-style: solid;
+    border-color:#dddddd;
+    border-width: 2px;
+ }
+ .socmedia{
+     width: 60px;
+     height:auto;
+     margin: 10px;
+     padding-bottom: 45px;
+ }
+
+ .PicSize{
+     width:148px;
+     height: auto;
+     float:left;
+
+ }
+
+ footer{
+    background-color: #666666; 
+    overflow: auto;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width:8px;
+    margin-top: 25px;
+    padding-top:45px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    text-align: center;
+}        

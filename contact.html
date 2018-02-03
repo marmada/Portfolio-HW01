@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 
 <html lang="en-us">
-<link rel="stylesheet" href="/assets/css/reset.css">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="assets/css/style.css">
 
 <head>
     <meta charset="UTF-8">
@@ -10,54 +10,51 @@
 </head>
 
 <body>
-    <div>
+    <div class="clearfix" id="top">
         <header>
-            <h1>Miriam Armada-Blumer aka "Mila"</h1>
+
+            <h1>Miriam Armada</h1>
+            <a class=links href="contact.html"> Contact US </a>
+            <a class=links href="portfolio.html"> Portfolio </a>
+            <a class=links href="index.html"> About </a>
         </header>
-
-        <nav>
-            <span>
-                <a href="index.html"> About </a>
-            </span>
-            <span>
-                <a href="portfolio.html"> Portfolio </a>
-            </span>
-            <span>
-                <a href="contact.html"> Contact US </a>
-            </span>
     </div>
-
-    </nav>
-
-    <div>
+    <div class="clearfix" id="bodycontent">
         <section>
-            <h1>Contact Me</h1>
-            <form>
+            <h2 class="subtitle">Contact Me</h2>
+            <br>
+            <div>
+                <form>
                     Name
-                    <input type="text"name="name">Name Last Name</input>
+                    <input type="text" name="name"></input><br>
                     Email
-                    <input type="text"name="email">Email</input>
+                    <input type="text" name="email"></input><br>
                     Message
-                    <textarea name="message"rows="10"cols="30">Message</textarea>
+                    <textarea name="message" rows="10" cols="30"></textarea>
                     <input type="submit"></input>
-            
+
                 </form>
+            </div>
         </section>
         <aside>
             <h2> Conect with Me </h2>
-            <a href="https://www.facebook.com/miriam.armada.10" target="_blank">
-                <img src="assets/images/FB.png" alt="facebook"></a>
+            <a href="https://github.com/marmada" target="_blank">
+                <img class=socmedia src="assets/images/github2.png" alt="github">
+            </a>
             <a href="https://www.linkedin.com/in/miriam-armada-blumer-1500b416/" target="_blank">
-                <img src="assets/images/linkedin.png" alt="linkedin"></a>
-            <a href="https://www.instagram.com/mairima1/?hl=en" target="_blank">
-                <img src="assets/images/instagram.jpg" alt="instagram"></a>
+                <img class=socmedia src="assets/images/linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://stackexchange.com/users/12722447/marmada" target="_blank">
+                <img class=socmedia src="assets/images/sof.png" alt="Stackoverflow">
+            </a>
         </aside>
     </div>
 
-    <footer>
-        <span>Copyrights Reserved - MVL Productions &copy;</span>
-    
+    <footer class="clearfix">
+        <span>Copyright &copy; 2018 - MVL Productions, a Mila Enterprise</span>
+
     </footer>
+
 
 
 
